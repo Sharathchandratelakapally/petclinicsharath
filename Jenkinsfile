@@ -1,4 +1,3 @@
-~
 node('UBUNTU'){
 	stage('scr'){
 	
