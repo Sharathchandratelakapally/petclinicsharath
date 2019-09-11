@@ -1,13 +1,9 @@
-node(){
-	stage('scr'){
-	
-	git 'https://github.com/Sharathchandratelakapally/petclinicsharath.git
-	}
-	stage('compile'){
-	sh 'mvn compile'
-	}
-
+node('UBUNTU'){
+    stage('src'){
+        git 'https://github.com/Sharathchandratelakapally/repopetclinic.git'
+    }
+    stage('project'){
+        sh 'mvn compile'
+    }
 }
-~
-~
 
