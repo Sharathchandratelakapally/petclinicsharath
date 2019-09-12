@@ -1,4 +1,4 @@
-node('UBUNTU'){
+node(){
     stage('src'){
         git 'https://github.com/Sharathchandratelakapally/repopetclinic.git'
     }
